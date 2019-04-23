@@ -11,7 +11,7 @@ module.exports = function(app)
 
         var surveyed = req.body;
         var diff = 0;
-        var maxDiff = 100;
+        var maxDiff = 40;
         var newFriend;
 
         //console.log(friends[0].scores);
